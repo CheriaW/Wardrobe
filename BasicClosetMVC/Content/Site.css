@@ -1,0 +1,94 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+.homePage {
+    background-image: url('organized-home-walk-in-closet-usa-e0nnrb.jpg');
+    margin-top: 0px;
+    background-size: cover;
+}
+div.homePage h1{
+    color: deepskyblue;
+    text-align: center;
+    font-family: Verdana;
+    font-size:50px;
+}
+div.homePage p{
+    color: deepskyblue;
+    text-align: center;
+    font-family: Verdana;
+
+}
+
+Items.Details{
+    background-color: darkmagenta;
+}
+
+/*details*/
+div.thumbnail{
+    background-color: dimgray;
+    border: thick;
+    
+}
+div.caption{
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+
+}
+BasicClosetMVC.Models.Item{
+    background-color: navy;
+    color: gold;
+}
+BasicClosetMVC.Models.Occassion{
+    background-color: navy;
+    color: gold;
+}
+BasicClosetMVC.Models.Season{
+    background-color: navy;
+    color: gold;
+}
+BasicClosetMVC.Models.Category{
+    background-color: navy;
+    color: gold;
+}
+
+/*indexes*/
+IEnumerable.BasicClosetMVC.Models.Category{
+    background-color: peachpuff;
+    color: black;
+}
+IEnumerable.BasicClosetMVC.Models.Item{
+    background-color: peachpuff;
+    color: black;
+}
+IEnumerable.BasicClosetMVC.Models.Occassion{
+    background-color: peachpuff;
+    color: black;
+}
+IEnumerable.BasicClosetMVC.Models.Season{
+    background-color: peachpuff;
+    color: black;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
